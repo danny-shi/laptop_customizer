@@ -17,7 +17,7 @@ class ComputerPart extends React.Component{
                     className="feature__option"
                     name={slugify(this.props.feature)}
                     checked={this.props.item.name === this.props.selected[this.props.feature].name}
-                    onChange={e => this.props.updateFeature} />
+                    onChange={this.props.updateFeature} />
                 
                 <label htmlFor={this.props.itemHash} className="feature__label">
                     {this.props.item.name} 
