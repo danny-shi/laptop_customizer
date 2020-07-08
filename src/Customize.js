@@ -30,6 +30,7 @@ class Customize extends React.Component {
               </fieldset>
             );
           });
+
         return (
             <form className="main__form">
                     <h2>Customize your laptop</h2>
